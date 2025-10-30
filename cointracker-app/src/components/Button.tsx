@@ -9,7 +9,7 @@ const StyledButton = styled.button<{ variant: ButtonVariant; size: ButtonSize }>
   padding: 15px 21px;
   border-radius: 100px;
   border: 1px solid transparent;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   cursor: pointer;
   transition:

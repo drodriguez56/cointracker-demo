@@ -88,7 +88,7 @@ const Amount = styled.span<{ $positive: boolean }>`
   margin-left: auto;
   font-weight: 500;
   font-variant-numeric: tabular-nums;
-  color: ${({ $positive }) => ($positive ? '#1fbe7f' : '#f06464')};
+  color: ${({ $positive }) => ($positive ? '#3EA44B' : '#D42422')};
   width: 200px;
   text-align: right;
 `;

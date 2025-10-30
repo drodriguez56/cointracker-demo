@@ -146,8 +146,8 @@ const CopyButton = styled.button`
 `;
 
 const CopyIcon = styled.img`
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
 `;
 const EmptyState = styled.p`
   color: #70758f;

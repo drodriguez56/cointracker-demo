@@ -19,7 +19,7 @@ const Panel = styled.section`
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px;
+  padding: 9px;
 
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.04);
 

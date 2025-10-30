@@ -73,9 +73,7 @@ const SyncIndicator = styled.span`
   justify-content: center;
   width: 28px;
   height: 28px;
-  border-radius: 50%;
-  background: #8c8fff;
-  color: #ffffff;
+  color: #40774b;
 `;
 
 const SyncIcon = styled.span`

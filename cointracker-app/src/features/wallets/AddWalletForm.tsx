@@ -59,7 +59,7 @@ const Actions = styled.div`
   gap: 8px;
 `;
 
-const btcPlaceholder = 'Paste or add address here...';
+const btcPlaceholder = 'Paste an address here...';
 
 const getErrorMessage = (error: unknown): string => {
   if (!error) {
@@ -146,7 +146,9 @@ const AddWalletForm = () => {
 
   if (!isExpanded) {
     return (
-      <AddWalletButton onClick={() => setIsExpanded(true)}>Add another wallet +</AddWalletButton>
+      <AddWalletButton onClick={() => setIsExpanded(true)}>
+        Add another wallet <span style={{ fontSize: 16 }}>+</span>
+      </AddWalletButton>
     );
   }
 
