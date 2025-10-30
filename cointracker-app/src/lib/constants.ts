@@ -1,0 +1,1 @@
+export const DEFAULT_TRANSACTIONS_PAGE_SIZE = 25;
