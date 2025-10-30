@@ -2,6 +2,14 @@
 
 Guidance for running the React frontend (`cointracker-app`) alongside the Express mock API (`cointracker-mock-api`).
 
+## Core Assumptions
+
+- The user is already authenticated; there is no login/signup flow. The current user can access all wallets created in this environment.
+
+- Single-user context: all wallets belong to this one user; no multi-user logic is implemented.
+
+- Wallet address validation: new wallet addresses must be valid Bitcoin addresses starting with 1, 3, or bc1.
+
 ## Prerequisites
 
 - Node.js **22.x** (the repositories specify this via `engines`)
